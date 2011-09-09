@@ -17,13 +17,13 @@
     return res.send([
       {
         id: 1,
-        name: "Take out the bins"
+        text: "Take out the bins"
       }, {
         id: 2,
-        name: "Feed the dog"
+        text: "Feed the dog"
       }, {
         id: 3,
-        name: "Get milk"
+        text: "Get milk"
       }
     ]);
   });
