@@ -16,35 +16,34 @@
   - start server (within framework dir)
   - open: framework/public/js/script.js
 
- 3. Start writing
-  1. Make a model
-   - What can we do with it?
-   - show the get, set and has methods
-   - show how we can set defaults
+ 3. Make a model
+  - What can we do with it?
+  - show the get, set and has methods
+  - show how we can set defaults
 
-  2. Make a view for that model
-   - root element, class
-   - the template: property. Show how we can use this
-   - the initialize function, what it does
-   - the render method, what it does
-   - show in the console how we can render a view in the dom
+ 4. Make a view for that model
+  - root element, class
+  - the template: property. Show how we can use this
+  - the initialize function, what it does
+  - the render method, what it does
+  - show in the console how we can render a view in the dom
 
-  3. Make a collection
-   - start the server and fetch from it
-   - show how we have retreived the data from the server
+ 5. Make a collection
+  - start the server and fetch from it
+  - show how we have retreived the data from the server
 
-  4. Write a view for the collection
-   - give it a root element directly from the DOM
-   - give it an initialize function and a render finction
-   - in render, iterate through the models in the collection,
-     give them each a view, and call render on each one
+ 6. Write a view for the collection
+  - give it a root element directly from the DOM
+  - give it an initialize function and a render finction
+  - in render, iterate through the models in the collection,
+    give them each a view, and call render on each one
 
-  5. Bootstrap
+ 7. Bootstrap
 
-  6. Bind an event callback to one of the models
-   - add the callback in initialize
-   - change the model data in the console and see the view update
+ 8. Bind an event callback to one of the models
+  - add the callback in initialize
+  - change the model data in the console and see the view update
 
-   7. ???
+ 9. ???
 
-   8. profit
+ 10. profit
